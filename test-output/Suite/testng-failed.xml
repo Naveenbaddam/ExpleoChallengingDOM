@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Onchrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="CrossBroserTesting.ChallengingDOMCrossBrowser">
+        <methods>
+          <include name="Gd" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- CrossBroserTesting.ChallengingDOMCrossBrowser -->
+    </classes>
+  </test> <!-- Onchrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
